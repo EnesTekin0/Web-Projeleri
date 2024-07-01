@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Raleway", sans-serif;
+}
+
+/* MENÜ */
+.menu-container {
+  background: white;
+  width: 24.207vw;
+  height: 100vh;
+  max-height: 100vh;
+  position: fixed;
+}
+
+.menu-container h2{
+  margin-top: 100px;
+}
+
+.menu-container .nav-menu {
+  margin-top: 150px;
+}
+
+.menu-container h2,
+.menu-container li,
+.menu-container li a {
+  color: #757575;
+  text-align: center;
+  text-decoration: none;
+  padding: 13px;
+}
+
+.menu-container li:hover,
+.menu-container a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* BODY */
+.main {
+  margin-left: 300px;
+}
+
+/* PHOTOS */
+.pictures {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row .pictures img {
+  width: 24.87vw;
+  height: 370px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.row .pictures img:hover {
+  opacity: 1;
+}
+
+/* PHOTOS BAR */
+.bar {
+  text-align: center;
+  margin: 50px;
+}
+
+.bar a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+}
+
+.bar .bar-button-1 {
+  background: black;
+  color: white;
+}
+
+.bar .bar-button-1:hover {
+  color: #000;
+  background: #ccc;
+}
+
+.bar-button:hover {
+  background: black;
+  color: white;
+}
+
+/* MAİN BODY */
+.main-container {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  background: #616161;
+  padding: 20px 15vw 20px 15vw;
+}
+
+.content-1 {
+  width: 600px;
+}
+
+.main-container .content-1 h3 {
+  width: 600px;
+  text-align: center;
+  color: white;
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.main-container .content-1 img {
+  width: 600px;
+  height: 400px;
+  padding: 20px 0;
+}
+
+.main-container .content-2 {
+  color: white;
+  width: 600px;
+}
+
+.main-container .content-2 h4 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.main-container .content-2 .membership {
+  margin: 40px 0;
+}
+
+.main-container .content-2 p {
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 25px;
+}
+
+/* SKİLLS */
+.main-container .content-2 .wide {
+  letter-spacing: 3px;
+}
+
+.main-container .white {
+  background: white;
+  color: black;
+  width: 600px;
+  height: 30px;
+}
+
+.main-container .white .skills-container-1 {
+  background: #9e9e9e;
+  box-sizing: border-box;
+  width: 570px;
+  height: 30px;
+  padding: 7px 0 0 270px;
+}
+
+.main-container .white .skills-container-2 {
+  background: #9e9e9e;
+  box-sizing: border-box;
+  width: 510px;
+  height: 30px;
+  padding: 7px 0 0 210px;
+}
+
+.main-container .white .skills-container-3 {
+  background: #9e9e9e;
+  box-sizing: border-box;
+  width: 480px;
+  height: 30px;
+  padding: 7px 0 0 180px;
+}
+
+.main-container p button {
+  width: 128px;
+  height: 18px;
+  margin: 16px 0;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.main-container p button:hover {
+  background: #ccc;
+}
+
+/* LİNE */
+.main-container .rod-1 {
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+/* MEMBERSİP */
+.main-container .container-1 {
+  display: flex;
+}
+
+.main-container .membership-container-ul {
+  list-style-type: none;
+  width: 290px;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.main-container .membership-container-ul .membership,
+.main-container .membership-container-ul .sig-up {
+  padding: 24px 16px;
+  border-bottom: 1px solid #aaaaaa;
+  background: #ccc;
+  color: #444444;
+}
+
+.main-container .membership-container-ul li h2 {
+  font-size: 32px;
+  margin: 5px 0 15px;
+}
+
+.main-container .membership-container-ul .sig-up {
+  background: #bbb;
+}
+
+.main-container .membership-container-ul .sig-up button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: #ccc;
+  color: #444444;
+}
+
+.main-container .membership-container-ul .level {
+  height: 100px;
+  background: rgb(45, 45, 45) !important;
+  color: rgb(200, 200, 200) !important;
+  font-size: 24px !important;
+  padding: 33px 0 !important;
+  box-sizing: border-box;
+}
+
+.main-container .membership-container-ul:hover .level {
+  background: black !important;
+  color: white !important;
+}
+
+.main-container .membership-container-ul:hover li {
+  background: white;
+  color: black;
+}
+
+.main-container .membership-container-ul:hover .sig-up {
+  background: #ddd;
+}
+
+.main-container .membership-container-ul:hover button {
+  background: white;
+  color: black;
+}
+
+.main-container .membership-container-ul button:hover {
+  background: #ccc;
+}
+
+/* CONTACT */
+.content-3 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column; 
+  padding: 32px 11.2vw 32px 15vw;
+  background: #f1f1f1;
+}
+
+.content-3 .center {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.content-3 p {
+  margin-bottom: 16px;
+  width: 600px;
+}
+
+.content-3 form {
+  width: 600px;
+}
+
+.content-3 .form-box {
+  box-sizing: border-box;
+  width: 600px;
+  height: 38px;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+}
+
+.content-3 .send-message {
+  box-sizing: border-box;
+  width: 600px;
+  height: 40px;
+  padding: 8px 0;
+  margin: 5px 0 15px;
+  border: none;
+  background: #000000;
+  color: #ffffff;
+}
+
+.content-3 .send-message:hover {
+  background: #ccc;
+  color: #000;
+}
+
+/* FOOTER */
+.container-2 {
+  background: #9e9e9e;
+  padding: 32px;
+  display: flex;
+}
+
+.container-2 .third {
+  width: 2920px;
+  padding: 0 8px;
+  margin-left: 80px;
+}
+
+.container-2 h3 {
+  margin: 10px 0 20px;
+  font-size: 24px;
+}
+
+.third .info {
+  margin-top: 20px;
+}
+
+.third li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  width: 276px;
+  height: 50px;
+  padding: 16px;
+}
+
+.third ul img {
+  width: 50px;
+  margin-right: 16px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.third ul img:hover {
+  opacity: 1;
+}
+
+.third #large {
+  font-size: 18px;
+}
+
+.third .span-1 {
+  margin-left: -100px;
+  margin-top: 3px;
+}
+
+.third li:hover {
+  background: #000;
+  color: #fff;
+}
+
+.third .footer-box-1 {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  font-size: 15px;
+  background: #000;
+  color: #fff;
+}
+
+.third .footer-box-2 {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  font-size: 12px;
+  background: #616161;
+  color: #fff;
+}
+
+.footer-bottom {
+  height: 70px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-bottom a {
+  color: #fff;
+}
+
+#web-designs {
+  text-decoration: none;
+  color: #000;
+}

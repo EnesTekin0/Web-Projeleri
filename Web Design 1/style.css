@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Caveat", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+.body {
+  background: url(https://www.free-css.com/assets/files/free-css-templates/preview/page261/reflux/assets/images/page-bg.jpg)
+    center center fixed;
+  width: 100%;
+}
+.menu {
+  background: #a43f49;
+  width: 25vw;
+  height: 100vh;
+  max-height: 100vh;
+  position: fixed;
+  text-align: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.menu::-webkit-scrollbar {
+    display: none;
+}
+.menu img {
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.menu-tiltle {
+  color: white;
+  font-size: 1.2em;
+  margin: 40px 0 60px;
+}
+nav ul li {
+  border-top: 2px solid white;
+}
+nav ul li:nth-child(4) {
+  border-bottom: 2px solid white;
+}
+nav ul li a {
+  display: block;
+  width: 25vw;
+  height: 70px;
+  color: white;
+  padding: 25px;
+}
+nav ul a:hover {
+  background: white;
+  color: #a43f49;
+}
+.social-network {
+  margin: 80px 0;
+}
+.social-network a {
+  color: white;
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  background: #83323a;
+}
+.social-network li {
+  display: inline-block;
+}
+.social-network ul a:hover,
+li:hover {
+  background: white;
+  color: #a43f49;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.menu-footer {
+  border-top: #ac525b solid 1px;
+  color: white;
+  padding: 30px 0;
+}
+.main {
+  margin-left: 25vw;
+  text-align: center;
+  padding: 10px 80px;
+}
+hr {
+  width: auto;
+  height: 2px;
+  border: none;
+  background: #443f41;
+  margin: 50px 0;
+}
+.red {
+  width: 60px;
+  height: 3px;
+  background-color: #a43f49;
+  margin: 10px auto;
+  border: none;
+}
+.main p {
+  color: white;
+}
+.main h1,
+h2,
+h3 {
+  color: white;
+}
+.tiltle p {
+  padding: 0 80px;
+}
+.tiltle {
+  margin: 70px 0;
+}
+.content {
+  display: flex;
+  justify-content: center
+}
+.content-1 {
+  width: 360px;
+  text-align: start;
+  margin-left: 50px;
+}
+.content-2 {
+  width: 360px;
+  text-align: start;
+  margin-right: 50px;
+}
+.content-1 h2,
+.content-2 h2 {
+  padding-bottom: 20px;
+}
+.content img {
+  width: 360px;
+}
+.main img {
+  border-radius: 5px;
+}
+button {
+  width: 120px;
+  height: 40px;
+  color: #a43f49;
+  background: white;
+  border: none;
+  margin-top: 30px;
+}
+button:hover {
+  background: #a43f49;
+  color: white;
+}
+.boxs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  width: 360px;
+  height: 350px;
+  background: rgb(250, 250, 250, 0.1);
+  margin: 0 10px 10px 0;
+  padding: 50px;
+  text-align: start;
+}
+.box h2 {
+  margin: 30px 0 15px 0;
+}
+.box i {
+  font-size: 72px;
+  color: white;
+}
+.box:hover,
+.box:hover h2,
+.box:hover p {
+  background: white;
+  color: black;
+}
+.box:hover i {
+  color: #a43f49;
+}
+
+.content-3 .a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.content-3 .a a {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-size: 1.2em;
+}
+#All {
+  color: #83323a;
+  border-bottom: #83323a 3px solid;
+  padding-bottom: 3px;
+}
+#People {
+  color: #83323a;
+  border-bottom: #83323a 3px solid;
+  padding-bottom: 3px;
+}
+#Nature {
+  color: #83323a;
+  border-bottom: #83323a 3px solid;
+  padding-bottom: 3px;
+}
+#Animals {
+  color: #83323a;
+  border-bottom: #83323a 3px solid;
+  padding-bottom: 3px;
+}
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.photos .photo img {
+  width: 360px;
+  margin-right: 10px;
+}
+.photos hr {
+  margin-right: 10px;
+}
+form{
+  margin-bottom: 100px;
+}
+.forms {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #443f41;
+}
+#name {
+  width: 350px;
+  height: 40px;
+  padding: 6px 15px;
+  margin-right: 26px;
+  margin-bottom: 30px;
+  background: rgba(250, 250, 250, 0.1);
+  border: 1px solid rgba(250, 250, 250, 1);
+}
+#email {
+  width: 350px;
+  height: 40px;
+  padding: 6px 15px;
+  margin-bottom: 30px;
+  background: rgba(250, 250, 250, 0.1);
+  border: 1px solid rgba(250, 250, 250, 1);
+}
+#subject {
+  width: 730px;
+  height: 40px;
+  padding: 6px 15px;
+  margin-bottom: 30px;
+  background: rgba(250, 250, 250, 0.1);
+  border: 1px solid rgba(250, 250, 250, 1);
+}
+#message {
+  width: 730px;
+  min-height: 220px;
+  padding: 6px 15px;
+  margin-bottom: 30px;
+  background: rgba(250, 250, 250, 0.1);
+  border: 1px solid rgba(250, 250, 250, 1);
+}
